@@ -18,7 +18,7 @@ function cambiarForma() {
     var formas = ['rectangular', 'redonda', 'ovalada', 'triangular', 'hexagonal', 'cuadrada', 'pentagonal'];
     var formaSeleccionada = formas[Math.floor(Math.random() * formas.length)];
     
-    document.getElementById('container').style.borderRadius = formaSeleccionada === 'rectangular' ? '0' : '50%';
+    document.getElementById('container').style.borderRadius = formaSeleccionada === 'hexagonal' ? '0' : '50%';
 }
 
 document.getElementById('cambiarFondo').addEventListener('click', cambiarFondo);
